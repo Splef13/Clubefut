@@ -1,0 +1,31 @@
+*{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+#linkInicio{
+    background-color: #089b0f;
+    text-align: center;
+    color: white;
+}
+#menu{
+    background-color: black;
+}
+#menu input{
+    text-align: center;
+    position: fixed;
+    top: 42px;
+    width: 65%;
+    border-radius: 5px;
+    padding: 3px;
+}
+#user{
+    position: fixed;
+    right: 15%;
+    top: 40px;
+}
+#sac{
+    position: fixed;
+    right: 10%;
+    top: 40px;
+}
