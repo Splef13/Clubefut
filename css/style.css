@@ -3,34 +3,49 @@
     padding: 0px;
     margin: 0px;
 }
-#linkInicio{
-    background-color: #089b0f;
-    text-align: center;
-    color: white;
-}
 #menu{
     background-color: black;
 }
 #menu input{
-    text-align: center;
     position: fixed;
-    top: 42px;
+    top: 24px;
     width: 65%;
     border-radius: 5px;
     padding: 3px;
 }
 #user{
     position: fixed;
-    right: 15%;
-    top: 40px;
+    right: 17%;
+    top: 22px;
+    text-decoration: none;
+    color: #a6a6a6;
+    text-align: center;
+    font-size: 11px;
 }
 #sac{
     position: fixed;
-    right: 8%;
-    top: 40px;
+    right: 10%;
+    top: 22px;
+    text-decoration: none;
+    color: #a6a6a6;
+    text-align: center;
+    font-size: 11px;
 }
 #cart{
     position: fixed;
-    right: 7.5%;
-    top: 40px;
+    right: 5%;
+    top: 22px;
+    text-decoration: none;
+    color: #a6a6a6;
+    text-align: center;
+    font-size: 11px;
+}
+#menu2{
+    background-color: black;
+    text-align: center;
+}
+#menu2 a{
+    text-decoration: none;
+    color: #a6a6a6;
+    padding-right: 20px;
 }
