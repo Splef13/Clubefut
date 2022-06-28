@@ -1,115 +1,82 @@
-*{
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-}
-#menu{
-    background-color: rgb(0, 0, 0);
-}
-#menu input{
-    position: absolute;
-    top: 31px;
-    width: 65%;
-    border-radius: 5px;
-    padding: 3px;
-}
-#user{
-    position: absolute;
-    right: 17%;
-    top: 22px;
-    text-decoration: none;
-    color: #a6a6a6;
+.texto{
     text-align: center;
-    font-size: 11px;
-}
-#sac{
-    position: absolute;
-    right: 10%;
-    top: 22px;
-    text-decoration: none;
-    color: #a6a6a6;
-    text-align: center;
-    font-size: 11px;
-}
-#cart{
-    position: absolute;
-    right: 5%;
-    top: 22px;
-    text-decoration: none;
-    color: #a6a6a6;
-    text-align: center;
-    font-size: 11px;
-}
-#menu2{
-    position: static;
-    background-color: black;
-    text-align: center;
-}
-
-.masculinas{
-    height: 100px;
-}
-#menu2 a{
-    text-decoration: none;
-    color: #a6a6a6;
-    padding-right: 20px;
     font-size: 20px;
+    margin-top: 350px;
+    margin-top: 150px;
 }
 
-.masculinas{
+*{
+    box-sizing: border-box;
+}
+
+.icons{
+    text-align: center;
+    padding-left: 2px;
+    justify-content: space-around;
+    margin-top: -150px;
+    font-size: 170px;
+}
+
+.juntar{
+    text-align: center;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+img{
+    width: 40px;
+    height: 40px;
+}
+
+h1{
+    color: #252222;
     padding: 20px;
 }
-a{
-    font-size: 28px;
-    text-decoration: none;
-    color: black;
-}
-h2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: absolute;
-    left: 300px;
-    
-}
-a{
-    font-size: 28px;
-    text-decoration: none;
-    color: black;
-}
-h2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: absolute;
-    left: 15%
-    
-}
-.precoanterior{
-    text-align: left;
-    text-decoration: line-through;
-    color: #a6a6a6;
-}
-.precoatual{
-    text-align: left;
-    font-weight: bold;
-}
-.fretegratis{
-    text-align: center;
-    color: green;
-    font-size: 18px;
-}
-ul{
-    list-style: none;
-    justify-content: left;
-    padding-left: 15%;
-}
-li{
-    display: inline-block;
-    margin: 50px;
-    position: relative;
-    
-}
 p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    right: 80%;
+    color: hsl(0, 4%, 57%);
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
 }
+
+.botao{
+    text-align: center;
+    margin-top: -40px;
+    color: white;
+}
+
+button{
+    background-color: #25D366;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    padding: 20px 30px;
+    border: none;
+    border-bottom: 10px;
+    cursor: pointer;
+}
+
+@keyframes anima{
+    0%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+button:hover{
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+a{
+    text-decoration: none;
+ 
+}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Source+Code+Pro&display=swap');
 body{
     line-height: 1.5;
@@ -140,6 +107,7 @@ ul{
     padding: 50px 0;
     width: 100%;
     bottom: 0px;
+    position: absolute;
 }
 
 .footer-col{
@@ -233,12 +201,3 @@ ul{
 .footer-col form .btn button:hover{
     background: darkorchid;    
 }
-
-
-
-
-
-
-
-
-

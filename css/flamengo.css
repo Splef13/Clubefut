@@ -3,12 +3,13 @@
     padding: 0px;
     margin: 0px;
 }
+
 #menu{
-    background-color: rgb(0, 0, 0);
+    background-color: black;
 }
 #menu input{
     position: absolute;
-    top: 31px;
+    top: 24px;
     width: 65%;
     border-radius: 5px;
     padding: 3px;
@@ -41,75 +42,97 @@
     font-size: 11px;
 }
 #menu2{
-    position: static;
     background-color: black;
     text-align: center;
-}
-
-.masculinas{
-    height: 100px;
 }
 #menu2 a{
     text-decoration: none;
     color: #a6a6a6;
     padding-right: 20px;
-    font-size: 20px;
 }
 
-.masculinas{
-    padding: 20px;
-}
-a{
-    font-size: 28px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Source+Code+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     text-decoration: none;
-    color: black;
 }
-h2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: absolute;
-    left: 300px;
-    
+
+body {
+    font-size: 100%;
 }
-a{
-    font-size: 28px;
-    text-decoration: none;
-    color: black;
+
+.conteudo {
+    margin-bottom: 50px;
+    border-top: 0.4px;
 }
-h2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: absolute;
-    left: 15%
-    
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 550px;
+    font-size: 40px;
+    height: 600px;
 }
-.precoanterior{
-    text-align: left;
+
+.camisa-imagem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.descricao-camisa {
+    font-weight: 500;
+    font-size: 35px;
+    align-items: center;
+
+}
+
+.fretegratis {
+    font-weight: 500;
+    font-size: 30px;
+    align-items: center;
+    padding-right: 60px;
+    color: green;
+
+}
+
+.precoanterior {
+    display: flex;
+    flex-direction: row;
+    text-decoration: line-through;
+    font-weight: 500;
+    font-size: 35px;
+    align-items: center;
+    padding-right: 600px;
     text-decoration: line-through;
     color: #a6a6a6;
 }
-.precoatual{
-    text-align: left;
-    font-weight: bold;
+
+.preco-camisa {
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+    font-size: 35px;
+    align-items: center;
+    padding-right: 600px;
+
 }
-.fretegratis{
-    text-align: center;
+
+
+.botao-comprar {
+    font-weight: 400;
+    font-size: 35px;
+    align-items: center;
+    padding: 5px;
     color: green;
-    font-size: 18px;
 }
-ul{
-    list-style: none;
-    justify-content: left;
-    padding-left: 15%;
-}
-li{
-    display: inline-block;
-    margin: 50px;
-    position: relative;
-    
-}
-p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Source+Code+Pro&display=swap');
 body{
     line-height: 1.5;
@@ -233,12 +256,3 @@ ul{
 .footer-col form .btn button:hover{
     background: darkorchid;    
 }
-
-
-
-
-
-
-
-
-

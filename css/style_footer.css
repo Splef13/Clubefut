@@ -1,115 +1,3 @@
-*{
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-}
-#menu{
-    background-color: rgb(0, 0, 0);
-}
-#menu input{
-    position: absolute;
-    top: 31px;
-    width: 65%;
-    border-radius: 5px;
-    padding: 3px;
-}
-#user{
-    position: absolute;
-    right: 17%;
-    top: 22px;
-    text-decoration: none;
-    color: #a6a6a6;
-    text-align: center;
-    font-size: 11px;
-}
-#sac{
-    position: absolute;
-    right: 10%;
-    top: 22px;
-    text-decoration: none;
-    color: #a6a6a6;
-    text-align: center;
-    font-size: 11px;
-}
-#cart{
-    position: absolute;
-    right: 5%;
-    top: 22px;
-    text-decoration: none;
-    color: #a6a6a6;
-    text-align: center;
-    font-size: 11px;
-}
-#menu2{
-    position: static;
-    background-color: black;
-    text-align: center;
-}
-
-.masculinas{
-    height: 100px;
-}
-#menu2 a{
-    text-decoration: none;
-    color: #a6a6a6;
-    padding-right: 20px;
-    font-size: 20px;
-}
-
-.masculinas{
-    padding: 20px;
-}
-a{
-    font-size: 28px;
-    text-decoration: none;
-    color: black;
-}
-h2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: absolute;
-    left: 300px;
-    
-}
-a{
-    font-size: 28px;
-    text-decoration: none;
-    color: black;
-}
-h2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: absolute;
-    left: 15%
-    
-}
-.precoanterior{
-    text-align: left;
-    text-decoration: line-through;
-    color: #a6a6a6;
-}
-.precoatual{
-    text-align: left;
-    font-weight: bold;
-}
-.fretegratis{
-    text-align: center;
-    color: green;
-    font-size: 18px;
-}
-ul{
-    list-style: none;
-    justify-content: left;
-    padding-left: 15%;
-}
-li{
-    display: inline-block;
-    margin: 50px;
-    position: relative;
-    
-}
-p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-}
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Source+Code+Pro&display=swap');
 body{
     line-height: 1.5;
@@ -137,14 +25,16 @@ ul{
 
 .footer{
     background-color: #1a1a1a;
-    padding: 50px 0;
+    padding: 15px 0;
     width: 100%;
     bottom: 0px;
+    position: fixed;
 }
 
 .footer-col{
     width: 25%;
     padding: 0 15px;
+    border-radius: 10px;
 }
 
 .footer-col h4{
@@ -234,11 +124,17 @@ ul{
     background: darkorchid;    
 }
 
+.whats img{
+    height: 60px;
+    width: 60px;
+}
 
-
-
-
-
-
+.whats a{
+    text-align: right;
+    position: relative;
+    font-size: 10px;
+    top: -40px;
+    left: 90%;
+}
 
 

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 10;
+    box-sizing: 10;
+    font-family: sans-serif;
+    
+
+}
+.form{
+    background:whitesmoke;
+    width: 99vw;
+    height: 97vh;
+    margin: center;
+    text-align: center;
+    border: 2px solid purple;
+    border-radius: px;
+    margin-top: 5px;
+}
+h1{
+    background: whitesmoke;
+
+}
+input,select{
+    border-radius: 25px;
+    height: 30px;
+    border: none;
+    padding-left: 25px;
+}
+input[type="submit"]{
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    width: 80px;
+    height: 35px;
+
+}
+input[type="button"]{
+    cursor:pointer;
+    border-radius: 5px;
+    border: none;
+    width: 80px;
+    height: 35px;
+
+}
+input[type="submit"]:hover{
+    background: #D8BFD8;;
+    color: white;
+}
+input[type="button"]:hover{
+    background: #D8BFD8;
+    color: white;
+}
